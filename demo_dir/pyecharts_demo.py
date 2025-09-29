@@ -8,7 +8,7 @@ line.add_xaxis(["china", "America", "England"])
 line.add_yaxis("GDP", [30, 20, 10])
 
 line.set_global_opts(
-    title_opts = TitleOpts(title = "GDP展示")
+    title_opts=TitleOpts(title="GDP展示")
 )
 
 line.render()
